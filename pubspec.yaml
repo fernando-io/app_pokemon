@@ -1,0 +1,39 @@
+name: pokedex_app
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_svg: ^0.22.0
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  fonts:
+    - family: SFProDisplay
+      fonts:
+        - asset: fonts/SF-Pro-Display-Bold.otf
+        - asset: fonts/SF-Pro-Display-Medium.otf
+        - asset: fonts/SF-Pro-Display-Regular.otf
+  
+  assets:
+    - lib/assets/icons/
+    - lib/assets/patterns/
+    - lib/assets/pokemons/
+    - lib/assets/vectors/
+
+
+  uses-material-design: true
+
